@@ -1,6 +1,7 @@
-#
-#
-#
+# shell script to copy files or directory in a interective mode 
+# features --> 1. if destination directory doesn't exist then create
+#		    as per user demand.
+#		    2. if file name already exist then create backup file	 
 #
 
 if [ $# -ne 2 ]
@@ -42,3 +43,7 @@ else
 		done
 	fi
 fi
+
+#
+# Author : Harshit Shaarma
+#
